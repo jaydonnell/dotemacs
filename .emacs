@@ -1,6 +1,8 @@
 (setq default-tab-width 2)
 (setq longlines-auto-wrap nil)
 
+# using the CMD key with my thumb is much nicer
+# than using CTR with my pinky
 (global-set-key (kbd "A-j") 'find-file)
 (global-set-key (kbd "A-b") 'switch-to-buffer)
 
