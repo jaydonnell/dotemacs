@@ -1,3 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d")
+
 (setq default-tab-width 2)
 (setq longlines-auto-wrap nil)
 
@@ -20,3 +22,4 @@
 
 (require 'haml-mode)
 (require 'sass-mode)
+
