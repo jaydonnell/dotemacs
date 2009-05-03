@@ -18,3 +18,5 @@
    ido-max-prospects 6              ; don't spam my minibuffer
    ido-confirm-unique-completion t) ; wait for RET, even with unique completion
 
+(require 'haml-mode)
+(require 'sass-mode)
