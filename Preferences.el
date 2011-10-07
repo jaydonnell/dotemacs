@@ -4,6 +4,22 @@
 ;; evaluating this file and print errors in the *Messags* buffer.
 ;; Use this file in place of ~/.emacs (which is loaded as well.)
 
+;; This file assumes the following packages have been installed from package.el
+;; - anything
+;; - anything-config
+;; - anything-match-plugin
+;; - coffee-mode
+;; - clojurescript-mode
+;; - haml-mode
+;; - sass-mode
+;; - scss-mode
+;; - starter-kit-ruby
+;; - starter-kit-js
+;; - color-theme
+;; - color-theme-sanityinc-solarized
+
+
+
 (tool-bar-mode -1)
 
 (require 'ido)
