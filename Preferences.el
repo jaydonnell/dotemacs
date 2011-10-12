@@ -125,3 +125,4 @@
 (add-hook 'clojure-mode-hook           (lambda () (paredit-mode +1)))
 (add-hook 'slime-repl-mode-hook (lambda () (paredit-mode +1)))
 
+(global-auto-revert-mode)
